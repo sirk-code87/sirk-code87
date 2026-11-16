@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Chris Timms, Head of Product. I build the systems my product teams run on. Agents read and draft. People decide." width="100%">
+  <img src="assets/banner.svg" alt="Chris Timms, hands-on product manager. I build the tools my teams need and ship them to users." width="100%">
 </p>
 
 <p align="center">
@@ -8,22 +8,14 @@
   <img src="https://img.shields.io/badge/Based%20in-UK-2dd4bf?style=flat-square" alt="Based in the UK">
 </p>
 
-Head of Product in hospitality commerce and payments. I build the systems my product teams run on: AI agents do the reading and drafting, and people make the decisions.
+Hands-on product manager in hospitality commerce and payments. When a team needs a tool, I design it, build it and ship it to the people who use it.
 
-My [portfolio](https://github.com/sirk-code87/portfolio) documents systems I designed and shipped at a UK hospitality commerce company and, before that, at a restaurant ordering and payments platform. Each one covers the problem, how the system works, the decisions behind it, how it was built month by month, and what I'd do differently. The original systems and their code belong to those companies.
+My [portfolio](https://github.com/sirk-code87/portfolio) is where I keep the things I've built: tools and apps for operations teams, customer feedback and my own product work, built at a UK hospitality commerce company and, before that, at a restaurant ordering and payments platform. Each one covers the problem, how it works, the decisions behind it and what I'd do differently. The originals and their code belong to those companies.
 
-## Start here
+## What I've built
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### [pm-agent-os](https://github.com/sirk-code87/portfolio/tree/main/pm-agent-os)
-The AI agent system I ran a product leadership role on: nine specialist lenses, a weekly report built only from logged facts, and a gate that holds every outgoing message for my approval.
-
-<sub>1,177 decision records · 4,470 logged work events · nine months in daily use</sub>
-
-</td>
 <td width="50%" valign="top">
 
 ### [account-ops-console](https://github.com/sirk-code87/portfolio/tree/main/account-ops-console)
@@ -32,8 +24,6 @@ A tool I built during a payments incident that grew, in about five weeks, into t
 <sub>Stripe Connect · threat-modelled first write · fail-closed audit log</sub>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [insight-coach](https://github.com/sirk-code87/portfolio/tree/main/insight-coach)
@@ -42,6 +32,8 @@ A two-to-three question chat that turns "something I noticed" into an evidenced 
 <sub>Web, Slack and embedded in internal tools · evaluation harness</sub>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [insight-relay](https://github.com/sirk-code87/portfolio/tree/main/insight-relay)
@@ -50,65 +42,22 @@ One intake for about ten feedback sources. People confirm what they file; automa
 <sub>96% accuracy on hand-checked call notes · every lane starts in dry-run</sub>
 
 </td>
+<td width="50%" valign="top">
+
+### [pm-agent-os](https://github.com/sirk-code87/portfolio/tree/main/pm-agent-os)
+My own AI workspace for day-to-day product work: agents that read, draft and keep the record, with every outgoing message held for my approval.
+
+<sub>1,177 decision records · 4,470 logged work events · nine months in daily use</sub>
+
+</td>
 </tr>
 </table>
 
 **[Product case studies](https://github.com/sirk-code87/portfolio/tree/main/product-case-studies)**: product decisions told as problem, solution and impact. Start with [Retuning fraud rules that were turning away good guests](https://github.com/sirk-code87/portfolio/tree/main/product-case-studies/fraud-rules-blocking-good-guests): a reversible call made live, measured against triggers agreed in advance. More are being added.
 
-## How the pieces fit
-
-What customers and colleagues notice becomes evidence on the product roadmap. The roadmap becomes small code changes that an engineer reviews. The agent system runs the loop and stops for a person at every step that can't be undone.
-
-```mermaid
-flowchart LR
-    subgraph signals["What people notice"]
-        staff["Colleagues<br/>on the web, in Slack,<br/>inside internal tools"]
-        auto["Surveys, call transcripts,<br/>support tickets, email,<br/>in-app feedback"]
-        crm["Customer records<br/>in the CRM"]
-    end
-
-    subgraph intake["Intake"]
-        coach["insight-coach<br/>a short guided chat;<br/>the person confirms"]
-        relay["insight-relay<br/>routes every source<br/>to the roadmap"]
-    end
-
-    subgraph roadmap["Roadmap"]
-        pb[("Productboard<br/>evidence and features")]
-    end
-
-    subgraph delivery["Delivery"]
-        issues["Small, well-defined<br/>tasks"]
-        runner["Overnight agent run<br/>drafts the code change"]
-        human{{"An engineer reviews<br/>and approves"}}
-    end
-
-    subgraph ops["Operations"]
-        console["account-ops-console<br/>payment account<br/>management"]
-    end
-
-    staff --> coach --> relay
-    auto --> relay
-    crm -->|"daily sync"| relay
-    relay -->|"notes linked to<br/>customer and source"| pb
-    console -->|"feedback button"| coach
-    pb --> issues --> runner --> human
-    human --> shipped(["Fix goes live"])
-
-    os["pm-agent-os<br/>the agent system<br/>that runs the loop"]
-    os -.->|"runs"| relay
-    os -.->|"runs"| runner
-    os -.->|"reports on"| pb
-
-    classDef mine fill:#134e4a,stroke:#2dd4bf,stroke-width:2px,color:#f8fafc
-    classDef gate fill:#fbbf24,stroke:#b45309,color:#0b1220
-    class coach,relay,console,os mine
-    class human gate
-```
-
-<sub>Teal: systems documented in the portfolio. Amber: where a person decides.</sub>
-
 ## How I work
 
-- **Agents draft; a person decides.** Every outgoing message and publication waits for my approval, and every code change starts as a proposal an engineer can review.
-- **Facts first.** Facts are recorded as the work happens, so every claim in a report traces back to a record.
+- **Build to learn.** A working version in front of real users answers more than a spec, so I start with the smallest version that tests the idea.
+- **Measure before claiming.** Every outcome I report traces back to a record, and anything still open is labelled as open.
 - **Decisions on paper.** Every decision is written down with who made it, when, and how easily it can be reversed.
+- **AI drafts; a person decides.** I use AI agents heavily, and every outgoing message or code change waits for a person to approve it.
