@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Based%20in-UK-2dd4bf?style=flat-square" alt="Based in the UK">
 </p>
 
-Hands-on product manager in hospitality commerce and payments. When a team needs a tool, I design it, build it and ship it to the people who use it.
+Hands-on product manager. When a team needs a tool, I design it, build it and ship it to the people who use it.
 
 My [portfolio](https://github.com/sirk-code87/portfolio) is where I keep the things I've built and the product decisions behind them, from a UK hospitality commerce company and, before that, a restaurant ordering and payments platform. Each one covers the problem, how it works, the decisions behind it and what I'd do differently. The originals and their code belong to those companies.
 
