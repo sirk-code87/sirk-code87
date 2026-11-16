@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Chris Timms, Head of Product. I build the systems my product teams run on.">
+  <title>Chris Timms, Head of Product. I build the systems my product teams run on.</title>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#1c2a44"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#0b1220" stop-opacity="1"/>
+      <stop offset="0.45" stop-color="#0b1220" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#0b1220" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1280" height="320" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+  <rect width="1280" height="320" rx="18" fill="#0b1220"/>
+  <rect width="1280" height="320" rx="18" fill="url(#dots)"/>
+  <rect width="1280" height="320" rx="18" fill="url(#fade)"/>
+  <rect x="0" y="0" width="6" height="320" fill="#2dd4bf" opacity="0.9"/>
+  <text x="64" y="104" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3" fill="#2dd4bf">HEAD OF PRODUCT</text>
+  <text x="62" y="172" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="700" fill="#f8fafc">Chris Timms</text>
+  <text x="64" y="222" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#9fb0c8">I build the systems my product teams run on.</text>
+  <text x="64" y="254" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#9fb0c8">Agents read and draft. People decide.</text>
+  <line x1="696" y1="150" x2="774" y2="150" stroke="#2dd4bf" stroke-width="2" opacity="0.85"/>
+  <line x1="798" y1="150" x2="876" y2="150" stroke="#2dd4bf" stroke-width="2" opacity="0.85"/>
+  <line x1="900" y1="150" x2="978" y2="150" stroke="#2dd4bf" stroke-width="2" stroke-dasharray="5 5" opacity="0.85"/>
+  <line x1="1002" y1="150" x2="1080" y2="150" stroke="#2dd4bf" stroke-width="2" stroke-dasharray="5 5" opacity="0.85"/>
+  <line x1="1104" y1="150" x2="1182" y2="150" stroke="#2dd4bf" stroke-width="2" opacity="0.85"/>
+  <path d="M 1194 164 C 1194 242, 684 242, 684 164" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round"/>
+  <path d="M 678 174 L 684 164 L 690 174" fill="none" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="684" cy="150" r="10" fill="#134e4a" stroke="#2dd4bf" stroke-width="2"/>
+  <text x="684" y="124" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#9fb0c8">signal</text>
+  <circle cx="786" cy="150" r="10" fill="#134e4a" stroke="#2dd4bf" stroke-width="2"/>
+  <text x="786" y="124" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#9fb0c8">intake</text>
+  <circle cx="888" cy="150" r="10" fill="#134e4a" stroke="#2dd4bf" stroke-width="2"/>
+  <text x="888" y="124" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#9fb0c8">roadmap</text>
+  <circle cx="990" cy="150" r="10" fill="#0b1220" stroke="#2dd4bf" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="990" y="124" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#9fb0c8">agent drafts</text>
+  <rect x="1081" y="139" width="22" height="22" transform="rotate(45 1092 150)" fill="#fbbf24"/>
+  <text x="1092" y="124" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#fbbf24">you decide</text>
+  <circle cx="1194" cy="150" r="10" fill="#2dd4bf" stroke="#2dd4bf" stroke-width="2"/>
+  <text x="1194" y="124" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#9fb0c8">ships</text>
+  <text x="939" y="242" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#9fb0c8" opacity="0.8">outcomes feed the next signal</text>
+
+  </g>
+</svg>
