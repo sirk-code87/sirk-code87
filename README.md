@@ -53,7 +53,11 @@ My own AI workspace for day-to-day product work: agents that read, draft and kee
 </tr>
 </table>
 
-**[Product case studies](https://github.com/sirk-code87/portfolio/tree/main/product-case-studies)**: product decisions told as problem, solution and impact. Start with [Retuning fraud rules that were turning away good guests](https://github.com/sirk-code87/portfolio/tree/main/product-case-studies/fraud-rules-blocking-good-guests): a reversible call made live, measured against triggers agreed in advance. More are being added.
+## [Product case studies](https://github.com/sirk-code87/portfolio/tree/main/product-case-studies)
+
+Calls I've made as a product manager, each written up as the problem, what I did and what changed. More are on the way.
+
+- **[Retuning fraud rules that were turning away good guests](https://github.com/sirk-code87/portfolio/tree/main/product-case-studies/fraud-rules-blocking-good-guests)**: a fraud rule was declining genuine guests, some of them eight times on one booking. I narrowed it live, wrote down when I'd reverse it before any results came in, and cut its blocks by 95% with no rise in fraud warnings.
 
 ## How I work
 
