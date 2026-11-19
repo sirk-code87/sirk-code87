@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Chris Timms, full-stack product manager, from discovery to rollout. Building is how I unblock myself and keep my teams small, tight and focused on the outcome.">
-  <title>Chris Timms, full-stack product manager, from discovery to rollout. Building is how I unblock myself and keep my teams small, tight and focused on the outcome.</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Chris Timms, full-stack product manager, from discovery to rollout. Building is how I unblock myself and keep my teams tight and focused on the outcome.">
+  <title>Chris Timms, full-stack product manager, from discovery to rollout. Building is how I unblock myself and keep my teams tight and focused on the outcome.</title>
   <defs>
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1.2" fill="#1c2a44"/>
@@ -18,8 +18,8 @@
   <rect x="0" y="0" width="6" height="320" fill="#2dd4bf" opacity="0.9"/>
   <text x="64" y="104" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3" fill="#2dd4bf">FULL-STACK PRODUCT MANAGER</text>
   <text x="62" y="172" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="700" fill="#f8fafc">Chris Timms</text>
-  <text x="64" y="222" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#9fb0c8">Building is how I unblock myself and keep my</text>
-  <text x="64" y="254" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#9fb0c8">teams small, tight and focused on the outcome.</text>
+  <text x="64" y="222" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#9fb0c8">Building is how I unblock myself and keep</text>
+  <text x="64" y="254" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#9fb0c8">my teams tight and focused on the outcome.</text>
   <path d="M672 236 C 740 236, 760 222, 860 228 S 1000 240, 1060 230 S 1160 218, 1214 226" fill="none" stroke="#2dd4bf" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
   <circle cx="730" cy="233" r="6" fill="#0b1220" stroke="#2dd4bf" stroke-width="2.5"/>
   <text x="730" y="270" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" letter-spacing="1" fill="#9fb0c8">discover</text>

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Chris Timms, full-stack product manager, from discovery to rollout. Building is how I unblock myself and keep my teams small, tight and focused on the outcome." width="100%">
+  <img src="assets/banner.svg" alt="Chris Timms, full-stack product manager, from discovery to rollout. Building is how I unblock myself and keep my teams tight and focused on the outcome." width="100%">
 </p>
 
 <p align="center">
@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Based%20in-UK-2dd4bf?style=flat-square" alt="Based in the UK">
 </p>
 
-Hands-on product manager. When a team needs a tool, I design it, build it and ship it to the people who use it.
+I get products from a customer's problem to a measured result faster. I can step into any stage, from discovery to rollout, so the work keeps moving and the specialists around me stay on the problems that need them.
 
 My [portfolio](https://github.com/sirk-code87/portfolio) is where I keep the things I've built and the product decisions behind them, from a UK hospitality commerce company and, before that, a restaurant ordering and payments platform. Each one covers the problem, how it works, the decisions behind it and what I'd do differently. The originals and their code belong to those companies.
 
