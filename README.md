@@ -58,6 +58,8 @@ My own AI workspace for day-to-day product work: agents that read, draft and kee
 Calls I've made as a product manager, each written up as the problem, what I did and what changed. More are on the way.
 
 - **[Retuning fraud rules that were turning away good guests](https://github.com/sirk-code87/portfolio/tree/main/product-case-studies/fraud-rules-blocking-good-guests)**: a fraud rule was declining genuine guests, some of them eight times on one booking. I narrowed it live, wrote down when I'd reverse it before any results came in, and cut its blocks by 95% with no rise in fraud warnings.
+- **[An upsell engine operators would trust with their margins](https://github.com/sirk-code87/portfolio/tree/main/product-case-studies/upsell-engine)**: restaurant operators lost a working day or more every menu cycle building upsell lists by hand. I chose a machine learning engine that learned from real orders, and when the pilot showed operators wouldn't trust a black box, the second release gave them an audit trail and their own rules. Average transaction value rose 8% to 12% against control groups.
+- **[An integration hub that products would choose to use](https://github.com/sirk-code87/portfolio/tree/main/product-case-studies/integration-hub)**: a software group sold one connected suite, but each acquired product ran its own integrations. I designed a shared hub where products keep their own swap-in connectors, named adoption as the real risk, and proved the architecture on a low-risk reservations use case before anything was sold on it.
 
 ## How I work
 
