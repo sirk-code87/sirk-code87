@@ -51,6 +51,16 @@ My own AI workspace for day-to-day product work: agents that read, draft and kee
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+### [ai-product-blueprint](https://github.com/sirk-code87/portfolio/tree/main/ai-product-blueprint)
+The reusable design behind pm-agent-os, written for any AI agent: which tool owns which fact, a playbook from customer signal to spec, a draft-only team of nine lenses, and Obsidian as knowledge base and task system.
+
+<sub>Opportunity trees at strategic and tactical level · two-part PRD · ran on two agent runtimes</sub>
+
+</td>
+</tr>
 </table>
 
 ## [Product case studies](https://github.com/sirk-code87/portfolio/tree/main/product-case-studies)
