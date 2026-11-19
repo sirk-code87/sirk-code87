@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Chris Timms, hands-on product manager. I build the tools my teams need and ship them to users." width="100%">
+  <img src="assets/banner.svg" alt="Chris Timms, full-stack product manager, from discovery to rollout. Building is how I unblock myself and keep my teams small, tight and focused on the outcome." width="100%">
 </p>
 
 <p align="center">
